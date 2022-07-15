@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>ClassiGrids - Classified Ads and Listing Website Template.</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.svg" />
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- Web Font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+    <!-- ========================= CSS here ========================= -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/LineIcons.2.0.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/tiny-slider.css" />
+    <link rel="stylesheet" href="assets/css/glightbox.min.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    
+    <style>
+        .add{
+            color: #000000;
+        }
+        .w{
+            font-size: 13px;
+        }
+        .p{
+            font-weight: bold;
+            color: black;
+        }
+        .search-form{
+            margin-top: 98px;
+        }
+        .section{
+            padding-top: 211px;
+        }
+    </style>
+</head>
+
+<body>
+    <!--[if lte IE 9]>
+      <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+        your experience and security.
+      </p>
+    <![endif]-->
+
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-icon">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <!-- /End Preloader -->
+
+    <!-- Start Header Area -->
+    <header class="header navbar-area">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12">
+                    <div class="nav-inner">
+                        <nav class="navbar navbar-expand-lg">
+                            <a class="navbar-brand" href="index.html">
+                                <img src="assets/images/logo/ajdajd.jpg" alt="Logo">
+                            </a>
+                            <button class="navbar-toggler mobile-menu-btn" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                                <ul id="nav" class="navbar-nav ms-auto">
+                                    <li class="nav-item">
+                                        <a class=" active dd-menu collapsed" href="javascript:void(0)"
+                                            data-bs-toggle="collapse" data-bs-target="#submenu-1-1"
+                                            aria-controls="navbarSupportedContent" aria-expanded="false"
+                                            aria-label="Toggle navigation">강아지</a>
+                                        <ul class="sub-menu collapse" id="submenu-1-1">
+                                            <li class="nav-item active"><a href="index.html">1</a></li>
+                                            <li class="nav-item"><a href="javascript:void(0)">2</a></li>
+                                            <li class="nav-item"><a href="javascript:void(0)">3</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class=" active dd-menu collapsed" href="javascript:void(0)"
+                                            data-bs-toggle="collapse" data-bs-target="#submenu-1-1"
+                                            aria-controls="navbarSupportedContent" aria-expanded="false"
+                                            aria-label="Toggle navigation">고양이</a>
+                                        <ul class="sub-menu collapse" id="submenu-1-1">
+                                            <li class="nav-item active"><a href="index.html">1</a></li>
+                                            <li class="nav-item"><a href="javascript:void(0)">2</a></li>
+                                            <li class="nav-item"><a href="javascript:void(0)">3</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class=" dd-menu collapsed" href="javascript:void(0)"
+                                            data-bs-toggle="collapse" data-bs-target="#submenu-1-3"
+                                            aria-controls="navbarSupportedContent" aria-expanded="false"
+                                            aria-label="Toggle navigation">스토어</a>
+                                        <ul class="sub-menu collapse" id="submenu-1-3">
+                                            <li class="nav-item"><a href="javascript:void(0)">Ad Grid</a></li>
+                                            <li class="nav-item"><a href="javascript:void(0)">Ad Listing</a></li>
+                                            <li class="nav-item"><a href="javascript:void(0)">Ad Details</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class=" dd-menu collapsed" href="javascript:void(0)"
+                                            data-bs-toggle="collapse" data-bs-target="#submenu-1-4"
+                                            aria-controls="navbarSupportedContent" aria-expanded="false"
+                                            aria-label="Toggle navigation">문의사항</a>
+                                        <ul class="sub-menu mega-menu collapse" id="submenu-1-4">
+                                            <li class="single-block">
+                                                <ul>
+                                                    <li class="mega-menu-title">Essential Pages</li>
+                                                    <li class="nav-item"><a href="about-us.html">About Us</a></li>
+                                                    <li class="nav-item"><a href="javascript:void(0)">Ads Details</a></li>
+                                                    <li class="nav-item"><a href="javascript:void(0)">Ads Post</a></li>
+                                                    <li class="nav-item"><a href="pricing.html">Pricing Table</a></li>
+                                                    <li class="nav-item"><a href="javascript:void(0)">Sign Up</a></li>
+                                                    <li class="nav-item"><a href="javascript:void(0)">Sign In</a></li>
+                                                    <li class="nav-item"><a href="javascript:void(0)">Contact Us</a></li>
+                                                    <li class="nav-item"><a href="javascript:void(0)">FAQ</a></li>
+                                                    <li class="nav-item"><a href="404.html">Error Page</a></li>
+                                                    <li class="nav-item"><a href="javascript:void(0)">Mail Success</a>
+                                                    </li>
+                                                    <li class="nav-item"><a href="javascript:void(0)">Comming Soon</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="single-block">
+                                                <ul>
+                                                    <li class="mega-menu-title">Dashboard</li>
+                                                    <li class="nav-item"><a href="javascript:void(0)">Account Overview</a>
+                                                    </li>
+                                                    <li class="nav-item"><a href="javascript:void(0)">My Profile</a>
+                                                    </li>
+                                                    <li class="nav-item"><a href="javascript:void(0)">My Ads</a></li>
+                                                    <li class="nav-item"><a href="javascript:void(0)">Favorite Ads</a>
+                                                    </li>
+                                                    <li class="nav-item"><a href="javascript:void(0)">Ad post</a></li>
+                                                    <li class="nav-item"><a href="javascript:void(0)">Bookmarked Ad</a>
+                                                    </li>
+                                                    <li class="nav-item"><a href="javascript:void(0)">Messages</a></li>
+                                                    <li class="nav-item"><a href="javascript:void(0)">Close account</a>
+                                                    </li>
+                                                    <li class="nav-item"><a href="javascript:void(0)">Invoice</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class=" dd-menu collapsed" href="javascript:void(0)"
+                                            data-bs-toggle="collapse" data-bs-target="#submenu-1-5"
+                                            aria-controls="navbarSupportedContent" aria-expanded="false"
+                                            aria-label="Toggle navigation">마이페이지</a>
+                                        <ul class="sub-menu collapse" id="submenu-1-5">
+                                            <li class="nav-item"><a href="javascript:void(0)">Blog Grid Sidebar</a>
+                                            </li>
+                                            <li class="nav-item"><a href="javascript:void(0)">Blog Single</a></li>
+                                            <li class="nav-item"><a href="javascript:void(0)">Blog Single
+                                                    Sibebar</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            
+                            </div> <!-- navbar collapse -->
+                            <div class="login-button">
+                                <ul>
+                                    <li>
+                                        <a href="javascript:void(0)"><i></i> 장바구니</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)"><i class="lni lni-enter"></i> 로그인</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)"><i class="lni lni-user"></i> 회원가입</a>
+                                    </li>
+                                </ul>
+                            </div>   
+                        </nav> <!-- navbar -->
+                    </div>
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </header>
+    <!-- End Header Area -->
+    <div class="search-form wow fadeInUp" data-wow-delay=".7s">
+        <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-4 col-12 p-0">
+                <div class="search-input">
+                    <label for="keyword"><i class="lni lni-search-alt theme-color"></i></label>
+                    <input type="text" name="keyword" id="keyword" placeholder="검색">
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-2 col-12 p-0">
+                <div class="search-btn button">
+                    <button class="btn"><i class="lni lni-search-alt"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Start Hero Area -->
+    <section class="hero-area">
+        <div class="container">
+            <div class="row">
+            </div>
+        </div>
+    </section>
+    <!-- End Hero Area -->
+
+    <!-- Start Categories Area -->
+    <section class="categories">
+        <div class="container">
+            <div class="cat-inner">
+                <div class="row">
+                    <div class="col-12 p-0">
+                        <div class="category-slider">
+                            <!-- Start Single Category -->
+                            <a href="category.html" class="single-cat">
+                                
+                                <h3>숙소</h3>
+                                <h5 class="total">65</h5>
+                            </a>
+                            <!-- End Single Category -->
+                            <!-- Start Single Category -->
+                            <a href="category.html" class="single-cat">
+                                
+                                <h3>미용</h3>
+                                <h5 class="total">25</h5>
+                            </a>
+                            <!-- End Single Category -->
+                            <!-- Start Single Category -->
+                            <a href="category.html" class="single-cat">
+                                
+                                <h3>구독</h3>
+                                <h5 class="total">55</h5>
+                            </a>
+                            <!-- End Single Category -->
+                            <!-- Start Single Category -->
+                            <a href="category.html" class="single-cat">
+                                
+                                <h3>동물병원</h3>
+                                <h5 class="total">22</h5>
+                            </a>
+                            <!-- End Single Category -->
+                            <!-- Start Single Category -->
+                            
+                            <!-- End Single Category -->
+                            <!-- Start Single Category -->
+                            <a href="category.html" class="single-cat">
+                                
+                                <h3>사료/간식</h3>
+                                <h5 class="total">35</h5>
+                            </a>
+                            <!-- End Single Category -->
+                            <!-- Start Single Category -->
+                            <a href="category.html" class="single-cat">
+                                
+                                <h3>카페</h3>
+                                <h5 class="total">42</h5>
+                            </a>
+                            <a href="category.html" class="single-cat">
+                                
+                                <h3>공원</h3>
+                                <h5 class="total">42</h5>
+                            </a>
+                            <!-- End Single Category -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /End Categories Area -->
+
+    <!-- Start Items Grid Area -->
+   
+    <!-- /End Items Grid Area -->
+
+    <!-- Start Why Choose Area -->
+    <section class="why-choose section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title">
+                        <h2 class="wow fadeInUp" data-wow-delay=".4s">지역별 동물병원</h2>
+                        <p class="wow fadeInUp" data-wow-delay=".6s"></p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-5">
+                <div class="col-lg-3">
+                    <div style="border-radius: 4px;">
+                        <img src="assets/images/hero/k_hospital.jpeg" style="width:100%; object-fit:cover;height:200px; border-radius:4px;" alt="판매상품">
+                    </div>
+                    <div class="mt-3">
+                        <p class="w">코끼리동물병원
+                        </p>
+                        <p class="add mt-3">주소 : 전주 완산구 모악로 4769 2층
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div style="border-radius: 4px;">
+                        <img src="assets/images/hero/may.jpeg" style="width:100%; object-fit:cover;height:200px; border-radius:4px;" alt="판매상품">
+                    </div>
+                    <div class="mt-3">
+                        <p class="w">메이동물병원
+                        </p>
+                        <p class="add mt-3">주소 : 전주 완산구 백제대로 332 2층 메이동물메디컬센터
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div style="border-radius: 4px;">
+                        <img src="assets/images/hero/Arirang.jpeg" style="width:100%; object-fit:cover;height:200px; border-radius:4px;" alt="판매상품">
+                    </div>
+                    <div class="mt-3">
+                        <p class="w">아리랑24시동물의료센터
+                        </p>
+                        <p class="add mt-3">주소 : 전주 완산구 서원로 294
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div style="border-radius: 4px;">
+                        <img src="assets/images/hero/children.jpeg" style="width:100%; object-fit:cover;height:200px; border-radius:4px;" alt="판매상품">
+                    </div>
+                    <div class="mt-3">
+                        <p class="w">전주 아이들동물병원
+                        </p>
+                        <p class="add mt-3">주소 : 전주 덕진구 만성중앙로 25 1층 아이들동물병원
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-lg-3">
+                    <div style="border-radius: 4px;">
+                        <img src="assets/images/hero/Olymols.jpeg" style="width:100%; object-fit:cover;height:200px; border-radius:4px;" alt="판매상품">
+                    </div>
+                    <div class="mt-3">
+                        <p class="w">올리몰스동물메디컬센터
+                        </p>
+                        <p class="add mt-3">주소 : 전북 전주시 덕진구 송천중앙로 213 올리몰스동물메디컬센터
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div style="border-radius: 4px;">
+                        <img src="assets/images/hero/nuell.jpeg" style="width:100%; object-fit:cover;height:200px; border-radius:4px;" alt="판매상품">
+                    </div>
+                    <div class="mt-3">
+                        <p class="w">늘푸른동물병원
+                        </p>
+                        <p class="add mt-3">주소 : 전라북도 전주시 완산구 충경로 11 늘푸른동물병원
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div style="border-radius: 4px;">
+                        <img src="assets/images/hero/Africa.jpeg" style="width:100%; object-fit:cover;height:200px; border-radius:4px;" alt="판매상품">
+                    </div>
+                    <div class="mt-3">
+                        <p class="w">아프리카24시동물병원
+                        </p>
+                        <p class="add mt-3">주소 : 전북 전주시 덕진구 아중로 142
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div style="border-radius: 4px;">
+                        <img src="assets/images/hero/eco.jpeg" style="width:100%; object-fit:cover;height:200px; border-radius:4px;" alt="판매상품">
+                    </div>
+                    <div class="mt-3">
+                        <p class="w">에코동물병원
+                        </p>
+                        <p class="add mt-3">주소 : 전북 전주시 덕진구 세병로 41 B104호 데시앙 4블럭 단지 내 상가
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /End Why Choose Area -->
+
+
+    <!-- Start Pricing Table Area -->
+    <section class="pricing-table section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title">
+                        <h2 class="wow fadeInUp" data-wow-delay=".4s">판매 상품</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-lg-3">
+                    <div style="border-radius: 4px;">
+                        <img src="assets/images/hero/tkfy.webp" style="width:100%; object-fit:cover;height:200px; border-radius:4px;" alt="판매상품">
+                    </div>
+                    <div class="mt-3">
+                        <p class="w">개사료
+                        </p>
+                        <p class="p mt-3">11% 5,900원
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div style="border-radius: 4px;">
+                        <img src="assets/images/hero/pd1.jpg" style="width:100%; object-fit:cover;height:200px; border-radius:4px;" alt="판매상품">
+                    </div>
+                    <div class="mt-3">
+                        <p class="w">[수제간식] 강아지 수제간식 100g
+                        </p>
+                        <p class="p mt-3">18,000원
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div style="border-radius: 4px;">
+                        <img src="assets/images/hero/pd3.jpg" style="width:100%; object-fit:cover;height:200px; border-radius:4px;" alt="판매상품">
+                    </div>
+                    <div class="mt-3">
+                        <p class="w">반려동물식 쉐프의 레시피 소고기 800g
+                        </p>
+                        <p class="p mt-3"> 22,560원
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div style="border-radius: 4px;">
+                        <img src="assets/images/hero/pd4.jpg" style="width:100%; object-fit:cover;height:200px; border-radius:4px;" alt="판매상품">
+                    </div>
+                    <div class="mt-3">
+                        <p class="w">네이월 동결건조 열빙어 트릿 4p
+                        </p>
+                        <p class="p mt-3">2,900원
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-lg-3">
+                    <div style="border-radius: 4px;">
+                        <img src="assets/images/hero/pd2.jpg" style="width:100%; object-fit:cover;height:200px; border-radius:4px;" alt="판매상품">
+                    </div>
+                    <div class="mt-3">
+                        <p class="w">반려동물간식 델리소 소고기 져키 100g
+                        </p>
+                        <p class="p mt-3">3,900원
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div style="border-radius: 4px;">
+                        <img src="assets/images/hero/pd5.jpg" style="width:100%; object-fit:cover;height:200px; border-radius:4px;" alt="판매상품">
+                    </div>
+                    <div class="mt-3">
+                        <p class="w">이나바 챠오츄르 닭가슴살 73 4p 고양이 간식
+                        </p>
+                        <p class="p mt-3">1,990원
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div style="border-radius: 4px;">
+                        <img src="assets/images/hero/pd6.jpg" style="width:100%; object-fit:cover;height:200px; border-radius:4px;" alt="판매상품">
+
+                    </div>
+                    <div class="mt-3">
+                        <p class="w">[모음전] 코니도기 고양이 강아지 다이어트 간식 40g / 90g
+                        </p>
+                        <p class="p mt-3">11,700원
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div style="border-radius: 4px;">
+                        <img src="assets/images/hero/pd7.jpg" style="width:100%; object-fit:cover;height:200px; border-radius:4px;" alt="판매상품">
+                    </div>
+                    <div class=" mt-3">
+                        <p class="w">강아지 치카 우유 껌 간식 2p
+                        </p>
+                        <p class="p mt-3">8,200원
+                        </p>
+                    </div>
+                </div>
+                <p class="wow fadeInUp" data-wow-delay=".6s" style="text-align: center; padding-top: 30px;">더 보기</p>
+            </div>
+        </div>
+
+                
+    </section>
+    <!--/ End Pricing Table Area -->
+
+    <section class="why-choose section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title">
+                        <h2 class="wow fadeInUp" data-wow-delay=".4s">내 위치 근처 동물병원</h2>
+                        <p class="wow fadeInUp" data-wow-delay=".6s"></p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="choose-content">
+
+                    
+                            <div id="map" style="width: 100%;height:400px;"></div>
+                            <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=defa12a76fd65f0affa25f9b99ed3df0"></script>
+                            <script>
+                                var container = document.getElementById('map');
+                                var options = {
+                                    center: new kakao.maps.LatLng(33.450701, 126.570667),
+                                    level: 3
+                                };
+                        
+                                var map = new kakao.maps.Map(container, options);
+                            </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Start How Works Area -->
+    <section class="how-works section" style="background-color: #fff;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title">
+                        <h2 class="wow fadeInUp" data-wow-delay=".4s">문의</h2>
+                        <p class="wow fadeInUp" data-wow-delay=".6s">업무 제휴 및 기다 문의 사항</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-12">
+                    <!-- Start Single Work -->
+                    <div class="single-work wow fadeInUp" data-wow-delay=".2s">
+                        <span class="serial">01</span>
+                        <h3>1:1 문의</h3>
+                        
+                    </div>
+                    <!-- End Single Work -->
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <!-- Start Single Work -->
+                    <div class="single-work wow fadeInUp" data-wow-delay=".4s">
+                        <span class="serial">02</span>
+                        <h3>FAQ</h3>
+                       
+                    </div>
+                    <!-- End Single Work -->
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <!-- Start Single Work -->
+                    <div class="single-work wow fadeInUp" data-wow-delay=".6s">
+                        <span class="serial">03</span>
+                        <h3>Phone</h3>
+                        
+                    </div>
+                    <!-- End Single Work -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End How Works Area -->
+
+
+    <!-- Start Footer Area -->
+    <footer class="footer">
+        <!-- Start Footer Top -->
+        
+        <!--/ End Footer Middle -->
+        <!-- Start Footer Bottom -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="inner">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="content">
+                                <ul class="footer-bottom-links">
+                                    <li><a href="javascript:void(0)">Terms of use</a></li>
+                                    <li><a href="javascript:void(0)"> Privacy Policy</a></li>
+                                    <li><a href="javascript:void(0)">Advanced Search</a></li>
+                                    <li><a href="javascript:void(0)">Site Map</a></li>
+                                    <li><a href="javascript:void(0)">Information</a></li>
+                                </ul>
+                                <p class="copyright-text">Designed and Developed by <a href="https://graygrids.com/"
+                                        rel="nofollow" target="_blank">GrayGrids</a>
+                                </p>
+                                <ul class="footer-social">
+                                    <li><a href="javascript:void(0)"><i class="lni lni-facebook-filled"></i></a></li>
+                                    <li><a href="javascript:void(0)"><i class="lni lni-twitter-original"></i></a></li>
+                                    <li><a href="javascript:void(0)"><i class="lni lni-youtube"></i></a></li>
+                                    <li><a href="javascript:void(0)"><i class="lni lni-linkedin-original"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Footer Middle -->
+    </footer>
+    <!--/ End Footer Area -->
+
+    <!-- ========================= scroll-top ========================= -->
+    <a href="#" class="scroll-top btn-hover">
+        <i class="lni lni-chevron-up"></i>
+    </a>
+
+    <!-- ========================= JS here ========================= -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/tiny-slider.js"></script>
+    <script src="assets/js/glightbox.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script type="text/javascript">
+        //========= Category Slider 
+        tns({
+            container: '.category-slider',
+            items: 3,
+            slideBy: 'page',
+            autoplay: false,
+            mouseDrag: true,
+            gutter: 0,
+            nav: false,
+            controls: true,
+            controlsText: ['<i class="lni lni-chevron-left"></i>', '<i class="lni lni-chevron-right"></i>'],
+            responsive: {
+                0: {
+                    items: 1,
+                },
+                540: {
+                    items: 2,
+                },
+                768: {
+                    items: 4,
+                },
+                992: {
+                    items: 5,
+                },
+                1170: {
+                    items: 6,
+                }
+            }
+        });
+    </script>
+    
+</body>
+
+</html>
